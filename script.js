@@ -615,7 +615,7 @@ async function loadQuestion() {
     const imageUrl = currentQuestionDetails.image_url;
     if (imageUrl && typeof imageUrl === 'string' && imageUrl.trim() !== "") {
         console.log(`DEBUG loadQuestion: Found image_url: ${imageUrl}`);    
-        const fullImageUrl = `https://raw.githubusercontent.com/ghiassabir/Practice-Test-1/main/assets/${imageUrl}`;
+        const fullImageUrl = `https://raw.githubusercontent.com/ghiassabir/Practice-Test-2/main/assets/${imageUrl}`;
         console.log(`DEBUG loadQuestion: Constructed full image URL: ${fullImageUrl}`);
         
         // Decide which image element to use based on module type
